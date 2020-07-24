@@ -1,5 +1,7 @@
 # tweet_analysis
 
+Captures tweets
+
 ## Project setup
 ```
 npm install
