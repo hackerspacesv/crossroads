@@ -38,8 +38,8 @@
           @hashGenerated="storeUserHash"
           ></LoginForm>
         <StoreTweet v-if="userHash!=null" :hash_id="userHash"></StoreTweet>
+        <router-view></router-view>
       </md-app-content>
-      
     </md-app>
   </div>
 </template>
